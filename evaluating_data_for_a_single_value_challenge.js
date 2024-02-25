@@ -3,7 +3,7 @@ const bowlingScores = [154, 204, 300, 184, 286];
 
 //Challenge Question #1
 //Does the array of bowling scores include a 300?
-const has300 = bowlingScores.includes(score => score === 300);
+const has300 = bowlingScores.includes(300);
 console.log(`Has 300: ${has300}`);
 
 //Challenge Question #2
